@@ -10,8 +10,6 @@ app.get('/', function(req, res) {
     res.send('Hello World');
 });
 
-app.listen(PORT);
-
-console.log(`Application Server listening on port ${PORT} in your browser.`);
+app.listen(PORT, () => console.log(`Application Server listening on port ${PORT} in your browser.`));
 
 module.exports = app;

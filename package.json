@@ -6,7 +6,7 @@
     "author": "Christopher Powell",
     "scripts": {
         "start": "babel-node index.js",
-        "test": "mocha --require babel-core/register"
+        "test": "mocha --require babel-core/register --exit"
     },
     "dependencies": {
         "express": "4.16.4"
