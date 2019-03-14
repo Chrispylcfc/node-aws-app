@@ -1,0 +1,21 @@
+{
+    "name": "node-aws-app",
+    "description": "Node.js Application for AWS",
+    "version": "1.0.0",
+    "private": true,
+    "author": "Christopher Powell",
+    "scripts": {
+        "start": "babel-node index.js",
+        "test": "mocha --require babel-core/register"
+    },
+    "dependencies": {
+        "express": "4.16.4"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "mocha": "6.0.2",
+        "supertest": "4.0.0"
+    }
+}
