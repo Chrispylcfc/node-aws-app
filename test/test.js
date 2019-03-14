@@ -1,6 +1,3 @@
-// const request = require('supertest');
-// const app = require('../index.js');
-
 import request from 'supertest';
 import app from '../index';
 
