@@ -10,6 +10,10 @@ app.get('/', function(req, res) {
     res.send('Hello Christopher J Powell! We\'ve done it!!!');
 });
 
+app.get('/football', function(req, res) {
+    res.send('Leicester City!');
+});
+
 app.listen(PORT, () => console.log(`Application Server listening on port ${PORT} in your browser.`));
 
 module.exports = app;
