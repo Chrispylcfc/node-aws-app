@@ -6,11 +6,11 @@ const PORT = 3000;
 const app = express();
 
 // Respond with Hello World for requests that hit '/'
-app.get('/', function(req, res) {
+app.get('/', (req, res) => {
     res.send('Hello Christopher J Powell! We\'ve done it!!!');
 });
 
-app.get('/football', function(req, res) {
+app.get('/football', (req, res) => {
     res.send('Leicester City!');
 });
 
